@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Eye | Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="logo"><span class="highlight">One Eye</span> Studio</div>
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle">☰</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Capturing Life's Beautiful Moments</h1>
+        <p>Professional photography services that turn ordinary moments into extraordinary memories</p>
+        <a href="#gallery" class="btn">View Gallery</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="media/matej-pribanic-ovzeo63D1VM-unsplash.jpg" alt="Photographer">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I'm Max, a professional photographer with over 10 years of experience capturing life's most precious moments. My passion for photography began when I was just a teenager, and it has evolved into a lifelong journey of artistic expression.</p>
+            <p>I specialize in portrait, landscape, and event photography, bringing a unique perspective to every shoot. My philosophy is simple: every moment has its beauty, and my job is to preserve that beauty forever.</p>
+            <p>When I'm not behind the camera, I'm exploring new locations for the perfect backdrop or teaching photography workshops to aspiring photographers.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-title">
+            <h2 class="section-title">My Portfolio</h2>
+            <p>Explore my diverse collection of photographs across various genres</p>
+        </div>
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="portrait">Portraits</button>
+            <button class="filter-btn" data-filter="landscape">Landscapes</button>
+            <button class="filter-btn" data-filter="event">Events</button>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item" data-category="portrait">
+                <img src="media/5.png" alt="Portrait 1">
+                <div class="gallery-overlay">
+                    <h3>Summer Portrait</h3>
+                    <p>Natural light portrait photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="landscape">
+                <img src="media/2.png" alt="Landscape 1">
+                <div class="gallery-overlay">
+                    <h3>Mountain Sunset</h3>
+                    <p>Golden hour landscape photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="event">
+                <img src="media/1.png" alt="Event 1">
+                <div class="gallery-overlay">
+                    <h3>City Festival</h3>
+                    <p>Urban event photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="portrait">
+                <img src="media/6.png" alt="Portrait 2">
+                <div class="gallery-overlay">
+                    <h3>Studio Session</h3>
+                    <p>Professional studio portrait</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="landscape">
+                <img src="media/4.png" alt="Landscape 2">
+                <div class="gallery-overlay">
+                    <h3>Ocean View</h3>
+                    <p>Coastal landscape photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="event">
+                <img src="media/3.png" alt="Event 2">
+                <div class="gallery-overlay">
+                    <h3>Wedding Ceremony</h3>
+                    <p>Elegant wedding photography</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-title">
+            <h2 class="section-title">My Services</h2>
+            <p>Professional photography services tailored to your needs</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">📸</div>
+                <h3>Portrait Photography</h3>
+                <p>Capture your personality with professional portrait sessions for individuals, couples, and families.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👰🏼‍♀️</div>
+                <h3>Wedding Photography</h3>
+                <p>Breathtaking landscape photography for home decor, offices, or as memorable gifts.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎉</div>
+                <h3>Event Coverage</h3>
+                <p>Comprehensive event photography for weddings, corporate events, parties, and special occasions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏞️</div>
+                <h3>Landscape Photography</h3>
+                <p>Professional photography that highlights every detail of your car, bike, or truck.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💃🏼</div>
+                <h3>Commercial Photography</h3>
+                <p>Capture your personality with professional portrait sessions for individuals, couples, and families.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏎️</div>
+                <h3>Vehicle Photography</h3>
+                <p>Breathtaking landscape photography for home decor, offices, or as memorable gifts.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🧃</div>
+                <h3>Product Photography</h3>
+                <p>Comprehensive event photography for weddings, corporate events, parties, and special occasions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Photo Retouching</h3>
+                <p>Professional photography that highlights every detail of your car, bike, or truck.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-title">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Have a project in mind? Let's discuss how we can work together!</p>
+        </div>
+        <div class="contact-container">
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Colombo 03, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+94 (000) 000 0000</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>contact@OneEyeStudio.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <button class="lightbox-close" id="lightbox-close">×</button>
+            <button class="lightbox-prev" id="lightbox-prev">❮</button>
+            <button class="lightbox-next" id="lightbox-next">❯</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Logo and About -->
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <h2>One Eye<span> Studio</span></h2>
+            </div>
+            <p class="footer-about">Capturing life's precious moments with artistic vision and technical precision. Specializing in portrait, landscape, and event photography since 2010.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-services">
+            <h3>Photography Services</h3>
+            <ul>
+                <li><a href="#">Portrait Photography</a></li>
+                <li><a href="#">Wedding Photography</a></li>
+                <li><a href="#">Event Coverage</a></li>
+                <li><a href="#">Landscape Photography</a></li>
+                <li><a href="#">Commercial Photography</a></li>
+                <li><a href="#">Vehicle Photography</a></li>
+                <li><a href="#">Product Photography</a></li>
+                <li><a href="#">Photo Retouching</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-contact">
+            <h3>Contact Information</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Colombo 03, Sri Lanka</span>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <span>+94 (000) 000 0000</span>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@OneEyeStudio.com</span>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>Mon-Fri: 9am-6pm | Sat: 10am-4pm</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Newsletter -->
+    <div class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Stay updated with our latest work, photography tips, and special offers</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <div class="copyright">
+            <p>&copy; 2025 One Eye Studio. All Rights Reserved.</p>
+        </div>
+        <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <a href="#top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
